@@ -9,7 +9,7 @@ int main()
     sf::RectangleShape shape(sf::Vector2f(70.f, 70.f));
 
     sf::Font font;
-    if (!font.loadFromFile("C:\\Users\\mariy\\Downloads\\arial-cufonfonts\\ARIAL.TTF"))
+    if (!font.loadFromFile("arial.ttf"))
     {
         std::cout << "error";
     }
